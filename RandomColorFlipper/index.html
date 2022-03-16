@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+  </head>
+  <body>
+    <div id="navbar">
+    <div id="website">
+      <a href="http://satvik.ninja" target="blank">source code</a>
+      &nbsp;
+      <a href="http://satvik.ninja" target="blank">satvik</a> </div>
+    </div>
+
+    <h1> Simple Color Generator </h1>
+   <center>
+    <button id='button' onclick="hexGenerator();">Click</button>
+    <br>
+    <br>
+    <button id='toggle'> How to make this ?</button> 
+    </center> 
+    <div id="how2">
+      
+   <p>
+    <br><br>  
+    First of all , create  a javacript file for your website: <br>
+    Create and array which holds the values which a color's hex code can be composed of and create a 
+    function to generate colo <br><br>  
+    <pre>
+    <code class="language-javascript">
+      const value = ["0","1", "2", "3","4", "5", "6","7", "8", "9","A", "B", "C","D", "E", "F"]
+      // hex values are random combinations of characters in range from 0->9 and A->F
+      function hexGenerator()
+      {
+
+      } </code>
+   </pre>
+  </p><p>
+   Create a loop that loops through 6 values of the values array
+   <pre>
+    <code class="language-javascript">
+   
+   const value = ["0","1", "2", "3","4", "5", "6","7", "8", "9","A", "B", "C","D", "E", "F"]
+
+    let hex=""  // initialize empty string 
+  
+    function hexGenerator()
+    {
+   
+    for (let i = 1; i < 7; i++) { // a hex code is composed of 6 characters
+
+   
+    }
+  } </code>
+</pre>
+  </p>  <p>
+    Now find a random value which acts as a random index to fetch a value from the values array
+    <pre>
+      <code class="language-javascript">
+     
+    const value = ["0","1", "2", "3","4", "5", "6","7", "8", "9","A", "B", "C","D", "E", "F"]
+
+    let hex="" // intialise with empty string
+    let random 
+
+
+    function hexGenerator()
+    {
+   
+    for (let i = 1; i < 7; i++) {
+
+    random=Math.floor(Math.random() * value.length) // calculates a random index between 0 and 15 
+    // 15 is the length of the values[] array 
+
+    hex = hex + value[random]; // add the random value to the hex code
+   
+    }</code>
+  </pre>
+  </p><p>
+    At last add a # to the hex string to make it a valid hex code , change the color of the background <br>
+    and reinitialise the hex string 
+    <pre>
+      <code class="language-javascript">
+        
+const value = ["0","1", "2", "3","4", "5", "6","7", "8", "9","A", "B", "C","D", "E", "F"]
+
+let hex=""
+let random
+
+
+function hexGenerator()
+{
+   
+    for (let i = 1; i < 7; i++) {
+
+    random=Math.floor(Math.random() * value.length)
+
+    hex = hex + value[random];
+   
+    }
+   
+    hex="#"+hex // adds a hash in front of the code 
+
+    document.body.style.backgroundColor = hex; // changes the color in html document 
+    
+
+    hex="" // reinitialise so that hash codes dont add to each other each time button is clicked 
+    
+}</code></pre>
+  </p><p>
+    Now at last we have to create a button in html and in the on-click event we can call the hexGenerator() function 
+    <br>
+    So now if we click the the button we just created the hexGenerator() function will be called and the background will be changed 
+    <br><br>
+  </p>
+
+
+  </div>
+   <script src="hider.js"></script>
+	<script src="index.js"></script>
+  <script src="prism.js"></script>
+  </body>
+</html>
