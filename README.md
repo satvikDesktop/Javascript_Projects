@@ -4,4 +4,4 @@
 ## CONTENTS
 
 ### 1. Random Color Flipper
-  [Github ](https://github.com/satvikDesktop/Javascript_Projects/tree/master/RandomColorFlipper)  [Live](https://satvik.ninja/randomcolorflipper/) 
+  [Github ](https://github.com/satvikDesktop/Javascript_Projects/tree/master/RandomColorFlipper)  [Live](https://satvik.ninja/RandomColorFlipper/) 
