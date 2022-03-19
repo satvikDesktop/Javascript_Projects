@@ -1,7 +1,9 @@
 # Javascript Projects
-### Repository with all my javascript web dev learning projects 
+### all my javascript web dev learning projects 
+<br>
 
 ## CONTENTS
+<br>
 
-### 1. Random Color Flipper
-  [Github ](https://github.com/satvikDesktop/Javascript_Projects/tree/master/RandomColorFlipper)  [Live](https://satvik.ninja/RandomColorFlipper/) 
+### 1. Random Color Flipper  [Live](https://satvik.ninja/RandomColorFlipper/) 
+### 2. Counter [Live](https://satvik.ninja/counter/) 
