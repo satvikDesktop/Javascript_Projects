@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+body {
+  background: #7a35fa;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a35fa, #7a35fa);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a35fa, #7a35fa);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: #000000;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: -1em;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 15vw;
+    margin-top: 0%;
+  }
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  color: white;
+}
+
+#enter {
+  margin-top: 2em;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 30em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #enter {
+    width: 15em;
+  }
+}
+
+#deletetodobtn {
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #ff4242;
+  /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#deletetodobtn:hover {
+  background-color: #be3636;
+  transition: background-color 0.2s ease-in;
+}
+#donetodobtn {
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #1cd463;
+  /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#donetodobtn:hover {
+  background-color: #2ba53f;
+  transition: background-color 0.2s ease-in;
+}
+
+#add {
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #0d0f29;
+  /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+#add:hover {
+  background-color: #4049c5;
+  transition: background-color 0.2s ease-in;
+}
+
+#center {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.strike {
+ 
+  text-decoration: line-through; /* strikethrough done todo */
+  color:#ffffff5e; /* done todo becomes dull */
+}
