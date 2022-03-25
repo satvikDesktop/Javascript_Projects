@@ -1,0 +1,32 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: rgb(82, 82, 82);
+}
+#inc,#dec{
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #000000; /* Green */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#txt{                                                                                                     
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    #txt{
+        font-size: 300%;
+    }  
+}
