@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffc83d' fill-opacity='0.98' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+.container {
+     display: flex;
+     flex-flow: column wrap;
+     margin-left: 20%;
+     margin-right: 20%;
+     margin-top: 5%;    
+}
+ @media only screen and (max-width: 600px) {
+     .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30vh;
+     }
+ }
+button{
+    font-size: 6vw;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0) ;
+    border: 0px;
+}
+
+ @media only screen and (max-width: 600px) {
+ button {
+    font-size: 18vw;
+ }
+}
+
+button:active {
+    transform: scale(0.9);
+}
+h1{
+   font-family: 'Bangers', cursive;
+   text-align: center;
+   font-size:5vw;
+   color: #000000;
+}
+ @media only screen and (max-width: 600px) {
+     h1{
+    font-size: 10vw;
+     }
+ }
+
+#choice-overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.88);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+#text1,#text2{
+    font-family: 'Bangers', cursive;
+    font-size: 5vw;
+    text-align: center;
+    color: #ffffff;
+    margin-top:5%;
+}
+#text3{
+    font-family: 'Bangers', cursive;
+    font-size: 5vw;
+    text-align: center;
+    color: #ffffff; /* changed by javascript  */
+    margin-top: 5%;
+}
+@media only screen and (max-width: 600px) {
+    #text1,#text2{
+    font-size: 10vw;
+    margin-top: 20%;
+    }
+    #text3{
+    font-size: 10vw;
+    margin-top: 20%;
+    }
+}
+a{
+ font-family: 'Bangers', cursive;
+ font-size: 1.3vw;
+ color: #000000;
+ text-decoration: none;
+}
+a:hover{
+    opacity:0.7;
+}
+@media only screen and (max-width: 600px) {
+    a{
+    font-size: 5vw;
+    }
+}
